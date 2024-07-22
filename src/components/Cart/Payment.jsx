@@ -76,7 +76,7 @@ const Payment = () => {
 
     try {
       const response = await fetch(
-        "https://ecommerce-api-two-rust.vercel.app/api/payment/process",
+        "https://ecommerce-api-git-main-mohammadumer78s-projects.vercel.app/api/payment/process",
         {
           body: JSON.stringify(paymentData),
           method: "POST",
